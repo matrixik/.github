@@ -93,7 +93,7 @@ autolabeler:
       - '/fix\/.+/'
     title:
       - '/fix/i'
-  - label: 'feature'
+  - label: 'enhancement'
     branch:
       - '/feature\/.+/'
       - '/feat\/.+/'
