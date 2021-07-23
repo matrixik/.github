@@ -66,12 +66,16 @@ autolabeler:
   - label: 'documentation'
     files:
       - 'doc.go'
+      - '*.md'
     branch:
       - '/docs{0,1}\/.+/'
       - '/documentation\/.+/'
   - label: 'chore'
     files:
-      - '*.md'
+      - 'Makefile'
+      - '*prettier*'
+      - '*golangci*'
+      - '.gitignore'
     branch:
       - '/chore\/.+/'
   - label: 'bug'
