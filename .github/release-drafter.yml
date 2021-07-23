@@ -9,7 +9,7 @@ template: |
 # Emoji reference: https://gitmoji.carloscuesta.me/
 categories:
   - title: ":boom: Breaking changes"
-    labels: 
+    labels:
       - breaking
   - title: 🚨 Removed
     label: removed
@@ -34,11 +34,12 @@ categories:
   - title: 📝 Documentation updates
     label: documentation
   - title: 🧰 Maintenance
-    labels: 
+    labels:
+      - maintenance
       - chore
       - internal
   - title: 🚦 Tests
-    labels: 
+    labels:
       - test
       - tests
 
@@ -56,10 +57,18 @@ version-resolver:
   minor:
     labels:
       - feature
+      - enhancement
       - major-enhancement
   patch:
     labels:
       - patch
+      - bug
+      - maintenance
+      - chore
+      - docs
+      - documentation
+      - dependencies
+      - security
   default: patch
 
 autolabeler:
@@ -70,13 +79,14 @@ autolabeler:
     branch:
       - '/docs{0,1}\/.+/'
       - '/documentation\/.+/'
-  - label: 'chore'
+  - label: 'maintenance'
     files:
       - 'Makefile'
       - '*prettier*'
       - '*golangci*'
-      - '.gitignore'
+      - '*.git*'
     branch:
+      - '/maintenance\/.+/'
       - '/chore\/.+/'
   - label: 'bug'
     branch:
