@@ -1,6 +1,6 @@
 # Configuration for Release Drafter: https://github.com/toolmantim/release-drafter
-name-template: 'v$RESOLVED_VERSION'
-tag-template: 'v$RESOLVED_VERSION'
+name-template: "v$RESOLVED_VERSION"
+tag-template: "v$RESOLVED_VERSION"
 
 template: |
   <!-- Optional: add a release summary here -->
@@ -49,7 +49,7 @@ exclude-labels:
   - skip-changelog
   - invalid
 
-change-template: '- $TITLE (#$NUMBER) by @$AUTHOR'
+change-template: "- $TITLE (#$NUMBER) by @$AUTHOR"
 version-resolver:
   major:
     labels:
@@ -72,30 +72,36 @@ version-resolver:
   default: patch
 
 autolabeler:
-  - label: 'documentation'
+  - label: "documentation"
     files:
-      - 'doc.go'
-      - '*.md'
+      - "doc.go"
+      - "*.md"
     branch:
       - '/docs{0,1}\/.+/'
       - '/documentation\/.+/'
-  - label: 'maintenance'
+  - label: "maintenance"
     files:
-      - 'Makefile'
-      - '*prettier*'
-      - '*golangci*'
-      - '*.git*'
+      - "Makefile"
+      - "*prettier*"
+      - "*golangci*"
+      - "*.git*"
     branch:
       - '/maintenance\/.+/'
       - '/chore\/.+/'
-  - label: 'bug'
+  - label: "bug"
     branch:
       - '/fix\/.+/'
     title:
-      - '/fix/i'
-  - label: 'enhancement'
+      - "/fix/i"
+  - label: "enhancement"
     branch:
       - '/feature\/.+/'
       - '/feat\/.+/'
     body:
-      - '/JIRA-[0-9]{1,4}/'
+      - "/JIRA-[0-9]{1,4}/"
+  - label: "tests"
+    files:
+      - "*_test.go"
+    branch:
+      - '/test\/.+/'
+      - '/tests\/.+/'
