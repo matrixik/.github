@@ -30,19 +30,19 @@
                         <div class="field calendar">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 11" width="210" height="16">
                                 <g>
-                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="15" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
                                     <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                 </g>
                             </svg>
@@ -69,7 +69,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            4758 Commits
+                            4759 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -127,7 +127,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
                             </svg>
-                            Starred 6658 repositories
+                            Starred 6663 repositories
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -219,14 +219,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="269.69439698386026" height="8" fill="#00ADD8"/>
-                    <rect mask="url(#languages-bar)" x="269.69439698386026" y="0" width="107.22334401784832" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="376.9177410017086" y="0" width="34.37707394908146" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="411.29481495079006" y="0" width="14.3492212541832" height="8" fill="#199f4b"/>
-                    <rect mask="url(#languages-bar)" x="425.64403620497325" y="0" width="10.349658989819115" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="435.99369519479234" y="0" width="10.336668125785454" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="446.33036332057776" y="0" width="8.560167469182" height="8" fill="#3D6117"/>
-                    <rect mask="url(#languages-bar)" x="454.89053078975974" y="0" width="5.10946921024019" height="8" fill="#427819"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="270.03184623323745" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="270.03184623323745" y="0" width="106.7819398986293" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="376.8137861318667" y="0" width="34.4200875152869" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="411.23387364715364" y="0" width="14.367175405235365" height="8" fill="#199f4b"/>
+                    <rect mask="url(#languages-bar)" x="425.601049052389" y="0" width="10.362608775563583" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="435.9636578279526" y="0" width="10.3496016569938" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="446.3132594849464" y="0" width="8.570878192576044" height="8" fill="#3D6117"/>
+                    <rect mask="url(#languages-bar)" x="454.88413767752246" y="0" width="5.115862322477573" height="8" fill="#427819"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -296,10 +296,10 @@
                                     </svg>
                                     <div class="content">
                                         Starred
-                                        <span class="repo">aranchelk/headmouse</span>
+                                        <span class="repo">fontello/fontello</span>
                                     </div>
                                 </div>
-                                <div class="timestamp">6 Jul 2024, 01:03:23</div>
+                                <div class="timestamp">6 Jul 2024, 21:37:15</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -310,10 +310,10 @@
                                     </svg>
                                     <div class="content">
                                         Starred
-                                        <span class="repo">anchore/syft</span>
+                                        <span class="repo">ellisonleao/sharer.js</span>
                                     </div>
                                 </div>
-                                <div class="timestamp">6 Jul 2024, 01:03:14</div>
+                                <div class="timestamp">6 Jul 2024, 21:35:20</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -324,10 +324,10 @@
                                     </svg>
                                     <div class="content">
                                         Starred
-                                        <span class="repo">openhue/openhue-go</span>
+                                        <span class="repo">ai/size-limit</span>
                                     </div>
                                 </div>
-                                <div class="timestamp">6 Jul 2024, 00:29:01</div>
+                                <div class="timestamp">6 Jul 2024, 21:34:11</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -338,10 +338,10 @@
                                     </svg>
                                     <div class="content">
                                         Starred
-                                        <span class="repo">adityadr/Linear-gauge-using-d3</span>
+                                        <span class="repo">koddr/goodshare.js</span>
                                     </div>
                                 </div>
-                                <div class="timestamp">5 Jul 2024, 08:21:36</div>
+                                <div class="timestamp">6 Jul 2024, 21:33:05</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -352,10 +352,10 @@
                                     </svg>
                                     <div class="content">
                                         Starred
-                                        <span class="repo">phuocng/csslayout</span>
+                                        <span class="repo">kytta/shareon</span>
                                     </div>
                                 </div>
-                                <div class="timestamp">5 Jul 2024, 08:10:51</div>
+                                <div class="timestamp">6 Jul 2024, 21:32:48</div>
                             </section>
                         </div>
                     </section>
@@ -363,7 +363,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 6 Jul 2024, 03:20:28 (timezone Europe/Warsaw) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 7 Jul 2024, 03:34:41 (timezone Europe/Warsaw) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
